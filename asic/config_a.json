@@ -1,0 +1,13 @@
+{
+    "DESIGN_NAME": "securecrypto_a",
+    "VERILOG_FILES": [
+        "dir::../rtl/sc_ascon_round.v",
+        "dir::../rtl/sc_ascon_core.v",
+        "dir::../rtl/sc_prng.v",
+        "dir::../rtl/securecrypto.v",
+        "dir::securecrypto_a.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 20,
+    "FP_CORE_UTIL": 40
+}
